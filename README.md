@@ -1,0 +1,1 @@
+Five rounds of Rock-Paper-Scissors played in the console.
