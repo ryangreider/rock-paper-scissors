@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <title>RPS</title>
+    <script src="script.js" defer></script>
+    <style>
+        #container{
+            display: flex;
+            gap: 8px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Rock-Paper-Scissors</h1>
-    <p>In the console</p>
+    <h1>Rock-Paper-Scissors Game</h1>
+    <div id="container"></div>
+    <div class="score">Player: 0 | Computer: 0</div>
+    <div id="result"></div>
 </body>
 </html>
